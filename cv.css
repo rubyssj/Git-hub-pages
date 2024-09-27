@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(rgba(255, 255, 255, 0.55),rgb(255, 255, 255, 0.55)), 
+    url('fond1.jpeg');  
+    background-size: cover;
+
+}   
+header, footer {
+    background-color: #0a0238;
+    color: rgb(218, 218, 218);
+    text-align: center;
+    padding: 1rem;
+}
+#educacion ul {
+text-align: center;
+display: flex;
+flex-direction: row;
+gap: 20px;
+padding: 0%;
+list-style-type: none;
+align-items: flex-start;
+}
+
+#educacion ul li a  {
+
+text-decoration: none;
+cursor: crosshair;
+align-items: center;
+
+}
+#educacion ul li {
+    border: 1px solid #ff0202;  
+    padding: 50px;
+    min-width: 200px;
+}
+main {
+    padding: 2rem;
+}
+h1{
+    color: #ffffff;
+}
+br {
+    color: black;
+}
+h2 {
+color: black;
+
+}
+.section-title {
+    border-bottom: 2px solid #333;
+    margin-bottom: 1rem;
+    
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 1rem;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;        /* Alinea el logo y el texto en línea */
+    align-items: center;         /* Alinea verticalmente el logo y el texto */
+    text-decoration: none;       /* Elimina el subrayado del enlace */
+    color: inherit;  
+}
+footer a img {
+
+    width: 20px;                 /* Ajusta el ancho del logo */
+    height: 20px;                /* Ajusta la altura del logo */
+    margin-right: 8px;           /* Espacio entre el logo y el texto */
+    margin-left: 5px;
+    vertical-align: middle;
+    
+}
+#contacto a{
+    display: inline-flex;       
+    align-items: center;        
+    text-decoration: none;      
+    color: inherit;   
+}
+#contacto a img {
+
+    width: 20px;                 
+    height: 20px;                
+    margin-right: 8px;           
+     align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.section-title {
+ padding-bottom: 1px;
+}
+/* empezamos a usar flexbox para acomodar los items osea de mis contactos etc */
+.item-contactos {
+    
+    display: flex;
+     flex-flow: wrap row;
+    justify-content: space-around;
+    
+}
+.caja { 
+     margin-top: 35px;
+     margin-bottom: -25px;
+}
